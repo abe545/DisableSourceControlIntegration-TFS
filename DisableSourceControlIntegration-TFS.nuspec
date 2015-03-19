@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DisableSourceControlIntegration-TFS</id>
+        <version>1.0.1</version>
+        <authors>Abraham Heidebrecht</authors>
+        <projectUrl>https://github.com/abe545/DisableSourceControlIntegration-TFS</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Adds a NuGet.config file, and .tfignore file so that your packages won't be checked into source control. Even though that means this package will be added by default, at least it includes no binaries.</description>
+        <summary>Prevent NuGet packages from being added to TFS.</summary>
+        <releaseNotes>1.0.1 - Uploaded project to GitHub, and updated manifest to point to it.</releaseNotes>
+        <tags>TFS nuget VersionControl SourceControl Integration DisableSourceControlIntegration</tags>
+    </metadata>
+    <files>
+        <file src="tools\init.ps1" target="tools\init.ps1" />
+    </files>
+</package>
